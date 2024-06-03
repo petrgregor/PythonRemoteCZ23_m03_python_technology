@@ -1,2 +1,2 @@
 def hello():
-    print("Witaj na loterii lotto!")
+    print("Welcome to the lotto lottery!")
