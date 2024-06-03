@@ -1,8 +1,8 @@
 def try_again():
-    vote = input("\nChcesz sprobowac jeszcze raz? (T/t/Y/y - Tak; N/n - Nie): ")
+    vote = input("\nDo you want to try again? (A/a/Y/y - Yes; N/n - No): ")
     votes_map = {
-        "T": True,
-        "t": True,
+        "A": True,
+        "a": True,
         "Y": True,
         "y": True,
         "N": False,

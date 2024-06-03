@@ -1,9 +1,9 @@
 def get_reward(times):
     if times <= 10:
-        print("Gratulacje, wygrałeś samochód!")
+        print("Congratulations, you won a car!")
     elif 10 < times <= 25:
-        print("Gratulacje, wygrałeś wycieczke!")
+        print("Congratulations, you won the trip!")
     elif 25 < times <= 50:
-        print("Gratulacje, wygrałeś nagrode pocieszenia!")
+        print("Congratulations, you won the consolation prize!")
     else:
-        print("Niestety, moze nastepnym razem Ci sie poszczesci...")
+        print("Unfortunately, maybe next time you'll get lucky...")
