@@ -1,4 +1,4 @@
-import random
+import random2
 import sys
 import math
 

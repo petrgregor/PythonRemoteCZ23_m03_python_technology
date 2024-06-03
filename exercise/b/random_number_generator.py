@@ -20,6 +20,6 @@ def generate_until_drawn(number, min, max):
     :param number:
     :param min:
     :param max:
-    :return: ilosc the number of draws needed to finally draw number.
+    :return: the number of draws needed to finally draw number.
     """
     pass

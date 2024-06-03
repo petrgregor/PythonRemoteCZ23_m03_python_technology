@@ -1,12 +1,13 @@
 import c
-import a.a2.hello as hello
+#import a.a2.hello as hello
+from a.a2.hello import hello
 from b.random_number_generator import generate_number_between, generate_until_drawn
 from a import try_again
 from a.a1.number_generator import *
 
 
-def try_again():
-    return False
+def thank_you():
+    print("Thank you. Good bye.")
 
 
 def lotto():
@@ -16,6 +17,7 @@ def lotto():
     """
     playing = True
     hello()
+    #print(generate_until_drawn.__doc__)
 
     while playing:
         number = c.retrieve_number_from_user()
@@ -23,6 +25,7 @@ def lotto():
         c.inform_about_the_result(times)
         c.get_reward(times)
         playing = try_again()
+
 
     thank_you()
 
